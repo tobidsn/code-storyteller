@@ -1,6 +1,15 @@
 ---
 name: code-storyteller
-description: Walk a reader through code one move at a time, like a director's commentary track on a screenplay. Produces a single self-contained HTML step-through (macOS code window left, serif narrative right, ←/→/space/dots/Prev-Next nav). Two modes — (1) default: narrate a flow in the working codebase ("tell the story of /api/login", "walk me through checkout", "narrate auth.ts"); (2) `pr <id>` subcommand: narrate a PR diff move-by-move using `gh pr diff` ("walk me through PR 1234", "/code-storyteller pr 1234"). Works on any language; entry-point hints for Express, NestJS, Next.js (App + Pages), FastAPI, Laravel, PayloadCMS, Rails, Spring, and Go.
+description: >-
+  Walk a reader through code one move at a time, like a director's commentary
+  track on a screenplay. Produces a single self-contained HTML step-through
+  (macOS code window left, serif narrative right, ←/→/space/dots/Prev-Next nav).
+  Two modes — the default narrates a flow in the working codebase ("tell the
+  story of /api/login", "walk me through checkout", "narrate auth.ts"); the
+  `pr <id>` subcommand narrates a PR diff move-by-move via `gh pr diff` ("walk
+  me through PR 1234", "/code-storyteller pr 1234"). Works on any language;
+  entry-point hints for Express, NestJS, Next.js (App + Pages), FastAPI,
+  Laravel, PayloadCMS, Rails, Spring, and Go.
 ---
 
 # code-storyteller
