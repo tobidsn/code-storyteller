@@ -4,7 +4,7 @@
 
 A [Claude Code](https://claude.com/claude-code) skill that turns a code flow — or a GitHub PR diff — into a single self-contained HTML step-through. macOS-style code window on the left, serif narrative panel on the right. Advance with `←` / `→` / `space` / dots / Prev-Next.
 
-![teaser — story view with code panel left and narrative right](./examples/sample-story.html)
+![Code Storyteller — Express login flow, step 1 of 5](./docs/screenshot.png)
 
 > Open [`examples/sample-story.html`](./examples/sample-story.html) in a browser to see what it produces. Every artifact is one self-contained HTML file (~310 KB) with fonts, syntax highlighting, and the render engine inlined — works offline, share-friendly, no network calls at view time.
 
